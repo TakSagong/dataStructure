@@ -1,14 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
-#define NUM 10
-#include <stdlib.h>
-#include <stdio.h>
-
-typedef struct node {
-	int num;
-	struct node* next;
-} NODE;
-
-typedef NODE* LINK;
+#include "list.h"
 
 LINK createNode(int data)
 {
